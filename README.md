@@ -37,45 +37,40 @@ The objective of this activity was to understand how security professionals coll
 
 ### 1. WHOIS
 Collected publicly available domain registration information.
-```bash
-wh
-```
 
-### 2. WhatWeb
+![CYBER](https://github.com/KanishkaManikandan5/NETWORKWALKS-B083-WK2-PENETRATION-TESTING--FOOTPRINTING/blob/7c0fdf2219647355ea3a764914b566731d3329f5/whois%201.png)
+![CYBER](https://github.com/KanishkaManikandan5/NETWORKWALKS-B083-WK2-PENETRATION-TESTING--FOOTPRINTING/blob/7c0fdf2219647355ea3a764914b566731d3329f5/whois%202.png)
+![CYBER](https://github.com/KanishkaManikandan5/NETWORKWALKS-B083-WK2-PENETRATION-TESTING--FOOTPRINTING/blob/7c0fdf2219647355ea3a764914b566731d3329f5/whois%203.png)
+
+2. WhatWeb
 Identified technologies associated with the authorized website.
-```bash
-whatweb <authorized-domain>
-```
+
+![WHATWEB](https://github.com/KanishkaManikandan5/NETWORKWALKS-B083-WK2-PENETRATION-TESTING--FOOTPRINTING/blob/7c0fdf2219647355ea3a764914b566731d3329f5/whatweb.png)
+
 
 ### 3. Nslookup
 Resolved the authorized domain and identified DNS/IP information.
-```bash
-nslookup <authorized-domain>
-```
+![CYBER](https://github.com/KanishkaManikandan5/NETWORKWALKS-B083-WK2-PENETRATION-TESTING--FOOTPRINTING/blob/7c0fdf2219647355ea3a764914b566731d3329f5/nslookup.png)
+
 
 ### 4. Curl
 Inspected HTTP response headers.
-```bash
-curl -I https://<authorized-domain>
-```
+![CYBER](https://github.com/KanishkaManikandan5/NETWORKWALKS-B083-WK2-PENETRATION-TESTING--FOOTPRINTING/blob/7c0fdf2219647355ea3a764914b566731d3329f5/curl.png)
 
 ### 5. Wafw00f
 Identified whether a Web Application Firewall could be detected.
-```bash
-wafw00f https://<authorized-domain>
-```
+![CYBER](https://github.com/KanishkaManikandan5/NETWORKWALKS-B083-WK2-PENETRATION-TESTING--FOOTPRINTING/blob/7c0fdf2219647355ea3a764914b566731d3329f5/waff.png)
+
 
 ### 6. DNSRecon
-Collected DNS-related information.
-```bash
-dnsrecon -d <authorized-domain>
-```
+![CYBER](https://github.com/KanishkaManikandan5/NETWORKWALKS-B083-WK2-PENETRATION-TESTING--FOOTPRINTING/blob/7c0fdf2219647355ea3a764914b566731d3329f5/DNS.png)
+
 
 ### 7. Wappalyzer Extension
 Used the browser extension to identify technologies detected on the website through browser-based technology analysis.
 
 **Method:** Open the authorized website in the browser and review the Wappalyzer result.
-
+![CYBER](https://github.com/KanishkaManikandan5/NETWORKWALKS-B083-WK2-PENETRATION-TESTING--FOOTPRINTING/blob/7c0fdf2219647355ea3a764914b566731d3329f5/wap.png)
 ---
 
 ## 📊 Findings
