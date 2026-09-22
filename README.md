@@ -122,10 +122,9 @@ Through this activity, I learned:
 ---
 
 ## 👨‍💻 Author
+KANISHKA M Cybersecurity Intern B083
 
-**Kanishka M.**
-Cybersecurity Student 
-Program: Cybersecurity Internship – Networkwalks
+LinkedIn: https://www.linkedin.com/in/kanishka-m525
 
 ---
 
